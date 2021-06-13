@@ -12,6 +12,13 @@ namespace DataManager.Models
         public DateTime DATAEMISSIONE { get; set; }
         public string NOMELOTTO { get; set; }
         public ESITO ESITO { get; set; }
+
+
+    //    public override string ToString()
+    //    {
+
+    //        return $"{IDFATTURA},{DATAEMISSIONE},{NOMELOTTO},{ESITO} \n";
+    //}
     }
 
     public enum ESITO
@@ -20,4 +27,5 @@ namespace DataManager.Models
         RC,
         NS
     }
+
 }
